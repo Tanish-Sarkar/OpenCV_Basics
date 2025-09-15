@@ -10,8 +10,8 @@ else:
 
 # Showing the image
 if image is not None:
-    cv2.imshow("Cat Image", image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    cv2.imshow("Cat Image", image)  # open the window
+    cv2.waitKey(0) # waiting for the key
+    cv2.destroyAllWindows() # closes the window
 else:
     print("Error: image is empty")
