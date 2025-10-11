@@ -5,8 +5,11 @@ image = cv2.imread("sample_images/00413-200124723.png")
 if image is not None:
     print("Loaded")
     resized = cv2.resize(image, (320,320))
+
     cv2.imshow(f"Original Image",image)
     cv2.imshow(f"Resized Image", resized)
+    cv2.imwrite("Resized_Image.png", resized)
+
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 else:
