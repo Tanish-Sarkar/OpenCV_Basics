@@ -1,7 +1,7 @@
 import cv2
 
 # 1. load image 
-image = cv2.imread("sample_images/00415-200124725.png")
+image = cv2.imread("../sample_images/00414-200124724.png")
 
 if image is not None:
     # 2. grayscaling
