@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread("sample_images/00420-200124730.png")
+image = cv2.imread("sample_images/00422-200124732.png")
 
 sharpen_kernal = np.array([
     [0,-1,0],
