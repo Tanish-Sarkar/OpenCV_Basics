@@ -2,7 +2,7 @@ import cv2
 import sys
 import numpy as np
 
-absolute_path = "OpenCV_Basics/Contours & Shape Detection/triangle.jpg"
+absolute_path = "Contours & Shape Detection/triangle.jpg"
 image = cv2.imread(absolute_path) 
 
 # CRITICAL CHECK: Always verify if the image loaded successfully
